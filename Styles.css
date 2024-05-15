@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #833ab4, #fd1d1d, #fcb045); /* Nuevo gradiente de color de fondo */
+    color: #fff; /* Color de texto general */
+}
+
+h1 {
+    color: #ff0000; /* Rojo oscuro para que resalte sobre el fondo */
+}
+
+ul {
+    list-style-type: none;
+    padding: 20px; /* Agrega espacio alrededor de la lista */
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background: linear-gradient(to right, #2ecc71, #3498db); /* Gradiente de color para los elementos de la lista */
+    color: #fff; /* Color de texto blanco para que resalte sobre el fondo */
+    border-radius: 5px;
+}
+
+li:hover {
+    background: linear-gradient(to right, #27ae60, #2980b9); /* Gradiente de color diferente al pasar el cursor */
+}
+
+label {
+    color: #25f312; /* Color naranja para los labels */
+}
+
+
+
